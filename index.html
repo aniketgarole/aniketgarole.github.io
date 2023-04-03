@@ -1,12 +1,351 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    Hello world, its Aniket, updated file
-</body>
+    <link rel="stylesheet" href="/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-------header section----->
+    <header class="header">
+      <nav class="nav bd_grid" id="nav-menu">
+        <div>
+          <a href="#" class="nav_logo"> CodeWithAniket</a>
+        </div>
+        <div class="nav_menu" id="nav_menu">
+          <ul class="nav_list">
+            <li class="nav_items">
+              <a href="#home" class="nav_link active home">Home</a>
+            </li>
+            <li class="nav_items">
+              <a href="#about" class="nav_link active about ">About</a>
+            </li>
+            <li class="nav_items">
+              <a href="#skills" class="nav_link active skills">Skills</a>
+            </li>
+            <li class="nav_items">
+              <a href="#projects" class="nav_link active projects">Projects</a>
+            </li>
+            <li class="nav_items">
+              <a href="#contact" class="nav_link active contact">Contact</a>
+            </li>
+            <li class="nav_items">
+              <button class="button nav-link resume" id="resume-button-1">Resume</button>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav_toggle" id="nav_toggle">
+          <i class="bx bx-menu-alt-right"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!----Home Sectin---->
+      <section class="home bd_grid" id="home" >
+        <div class="home_data" data-aos="fade-down">
+          <h1 class="home_title">
+            Hi, <br />I'm <span class="home_title-color" id="user-detail-name">Aniket Garole</span
+            ><br />Web Designer
+          </h1>
+          <!-- <a href="#contact" class="button">Contact</a> -->
+          <button class="button nav-link resume"  id="resume-button-2">Resume</button>
+        </div>
+
+        <div class="home_social">
+          <a
+            href="#"
+            class="home_social-icon"
+            data-aos="fade-down"
+            data-aos-delay="300"
+            ><i class="bx bxl-linkedin" id="contact-linkedin"></i
+          ></a>
+          <a
+            href="#"
+            class="home_social-icon"
+            data-aos="fade-down"
+            data-aos-delay="350"
+            ><i class="bx bxl-github" id="contact-github"></i
+          ></a>
+        </div>
+
+        <div class="home_img" data-aos="fade-down" data-aos-delay="500">
+          <img src="/images/passport photo.jpg" alt="" class="home-img"/>
+        </div>
+      </section>
+      <!----About Sectin---->
+      <section class="about section" id="about" >
+        <h2 class="section-title" data-aos="fade-down">About</h2>
+        <div class="about_container bd_grid">
+          <div class="about_img" data-aos="fade-down" data-aos-delay="50">
+            <img src="" alt="" />
+          </div>
+
+          <div>
+            <h2
+              class="about_subtitle"
+              data-aos="fade-down"
+              data-aos-delay="350"
+            >
+              I'm Aniket Garole
+            </h2>
+            <p class="about_text" data-aos="fade-down" data-aos-delay="450"  id="user-detail-intro">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quae
+              amet quis voluptate eaque? Culpa cum aperiam possimus similique
+              ipsam sunt aut rerum illo eveniet, beatae exercitationem, corrupti
+              rem nesciunt? Sint obcaecati
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!----Skills Sectin---->
+
+      <section class="skills section" id="skills">
+        <h2 class="section-title" data-aos="fade-down">Skills</h2>
+
+        <div class="skills_container bd_grid">
+          <div>
+            <h2
+              class="skills_subtitle"
+              data-aos="fade-down"
+              data-aos-delay="250"
+            >
+              Professional Skills
+            </h2>
+            <p class="skills_text" data-aos="fade-down" data-aos-delay="350">
+              Without sharpen your weapon; standing on the battle field would
+              not increase your chance of winning
+            </p>
+            <!-----skills HTML----->
+            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name" class="skills-card">
+                <i class="bx bxl-html5 skills_icon skills-card-img"></i>
+                <span class="skills_name skills-card-name">HTML</span>
+              </div>
+
+              <div><span class="skill_percentage">95%</span></div>
+
+              <div class="skill_bar skill_html"></div>
+            </div>
+
+            <!-----CSS---->
+            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name" class="skills-card">
+                <i class="bx bxl-css3 skills_icon skills-card-img"></i>
+                <span class="skills_name skills-card-name">CSS</span>
+              </div>
+
+              <div><span class="skill_percentage">90%</span></div>
+
+              <div class="skill_bar skill_html"></div>
+            </div>
+
+            <!-----JS---->
+            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name" class="skills-card">
+                <i class="bx bxl-javascript skills_icon skills-card-img"></i>
+                <span class="skills_name skills-card-name">JS</span>
+              </div>
+
+              <div><span class="skill_percentage">90%</span></div>
+
+              <div class="skill_bar skill_html"></div>
+            </div>
+
+            <!-----React---->
+            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name" class="skills-card">
+                <i class="bx bxl-react skills_icon skills-card-img"></i>
+                <span class="skills_name skills-card-name">React</span>
+              </div>
+
+              <div><span class="skill_percentage">90%</span></div>
+
+              <div class="skill_bar skill_html"></div>
+            </div>
+
+            <!-----Redux---->
+            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name" class="skills-card">
+                <i class="bx bxl-redux skills_icon skills-card-img"></i>
+                <span class="skills_name skills-card-name">Redux</span>
+              </div>
+
+              <div><span class="skill_percentage">90%</span></div>
+
+              <div class="skill_bar skill_html"></div>
+            </div>
+
+            <!-----Redux---->
+            <!-- <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name">
+                <i class="bx bxl-redux skills_icon"></i>
+                <span class="skills_name">Redux</span>
+              </div>
+
+              <div><span class="skill_percentage">90%</span></div>
+
+              <div class="skill_bar skill_html"></div>
+            </div> -->
+
+            <!-----Chakra---->
+            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name">
+                <i class="bx bxs-paint skills_icon skills-card-img"></i>
+                <span class="skills_name skills-card-name" class="skills-card">Chakra</span>
+              </div>
+
+              <div><span class="skill_percentage">90%</span></div>
+
+              <div class="skill_bar skill_html"></div>
+            </div>
+
+            <!-----Typescript---->
+            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name" class="skills-card">
+                <i class="bx bxl-typescript skills_icon skills-card-img" ></i>
+                <span class="skills_name skills-card-name">TypeScript</span>
+              </div>
+
+              <div><span class="skill_percentage">90%</span></div>
+
+              <div class="skill_bar skill_html"></div>
+            </div>
+          </div>
+
+          <div>
+            <img src="" alt="" class="" />
+          </div>
+        </div>
+      </section>
+      <!----Work Sectin---->
+
+      <section class="work section"   id="projects">
+        <h2 class="section-title" data-aos="fade-down">Projects</h2>
+
+        <div
+          class="work_container bd_grid"
+          data-aos="fade-right"
+          data-aos-delay="250"
+        >
+          <div class="work_img">
+            <img src="./images/4733153.jpg" alt="" />
+          </div>
+
+          <div class="work_img">
+            <img src="./images/4733153.jpg" alt="" />
+          </div>
+
+          <div class="work_img">
+            <img src="./images/4733153.jpg" alt="" />
+          </div>
+
+          <div class="work_img">
+            <img src="./images/4733153.jpg" alt="" />
+          </div>
+
+          <div class="work_img">
+            <img src="./images/4733153.jpg" alt="" />
+          </div>
+
+          <div class="work_img">
+            <img src="./images/4733153.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <div>
+        <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=aniketgarole"/></a>
+      </div>
+      
+      <!----Contact Sectin---->
+
+      <section class="contact section" id="contact">
+        <h2 class="section-title" data-aos="fade-down">Contact</h2>
+
+        <div class="contact_container bd_grid">
+          <form action="#" class="contact_form">
+            <input
+              type="text"
+              placeholder="Name"
+              class="control_input"
+              data-aos="fade-right"
+              data-aos-delay="250"
+            />
+            <input
+              type="text"
+              placeholder="Email"
+              class="control_input"
+              data-aos="fade-right"
+              data-aos-delay="300"
+            />
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              class="control_input"
+              data-aos="fade-right"
+              data-aos-delay="400"
+            ></textarea>
+
+            <input
+              type="button"
+              value="Sent"
+              class="control_button button"
+              data-aos="fade-right"
+              data-aos-delay="450"
+            />
+          </form>
+        </div>
+      </section>
+
+      <!----footer section-->
+
+      <footer class="footer">
+        <p class="footer_title" data-aos="fade-down">Aniket Garole</p>
+
+        <div class="footer_socials">
+          <a
+            href="#"
+            class="footer_icon"
+            class="footer_title" data-aos="fade-down"
+            data-aos-delay="250"
+           
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a
+            href="#"
+            class="footer_icon"
+            class="footer_title" data-aos="fade-down"
+            data-aos-delay="350"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
+
+        <p class="footer_title" data-aos="fade-down"  data-aos-delay="350">
+          &#169; 2024 copyright all right reserved
+        </p>
+    </footer>
+    </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/main.js"></script>
+
+    <script>
+      AOS.init({
+        duration: 1200,
+        once: false,
+      });
+    </script>
+  </body>
 </html>
