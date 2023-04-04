@@ -518,7 +518,7 @@ img{
    }
 
    .work_container{
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     column-gap: 2rem;
    }
@@ -543,4 +543,25 @@ img{
         .home_img{
             right: 10%;
         }
+}
+
+.work_text_div{
+    text-align: left; 
+    padding: 10px 10px;
+}
+
+.work_button_div{
+    display:flex; 
+    justify-content: space-around; 
+    margin-top: 20px;
+}
+
+.work_btn{
+    width: 100px;
+    height: 30px;
+    background-color: var(--first-color);
+    color: #FFF;
+    font-size: 15px;
+    border-radius: 8px;
+    border: none;
 }
