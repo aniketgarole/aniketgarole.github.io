@@ -29,3 +29,17 @@ function linkAction() {
 }
 
 navLink.forEach(n => n.addEventListener("click", linkAction))
+
+
+
+let res_btn1 = document.getElementById("resume-button-1")
+let res_btn2 = document.getElementById("resume-button-2")
+
+res_btn1.addEventListener("click", openResume)
+res_btn2.addEventListener("click", openResume)
+
+function openResume() {
+
+    window.open("https://drive.google.com/file/d/1u6ljrFNt2GvHAKtq-8Zz2UZmXvqW6lG4/view?usp=share_link", "_blank")
+    // window.location = "https://drive.google.com/file/d/1u6ljrFNt2GvHAKtq-8Zz2UZmXvqW6lG4/view?usp=share_link";
+}
