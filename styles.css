@@ -166,6 +166,11 @@ img {
     border-radius: 50%;
     height: 450px;
   }
+
+  .stats_img{
+    /* height: 170px; */
+    width: 70%;
+  }
 }
 
 .nav_items {
@@ -588,10 +593,10 @@ img {
 
   }
 
-  /* .stats_img{
+  .stats_img{
     height: 170px;
-    width: 400px;
-  } */
+    width: 28%;
+  }
 
 
 }
