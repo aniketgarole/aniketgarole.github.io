@@ -16,16 +16,19 @@
   rel="stylesheet"
   href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
 />
+
+
     
   </head>
   <body>
+    
     <!-------header section----->
     <header class="header">
-      <nav class="nav bd_grid" id="nav-menu">
+      <nav class="nav bd_grid" id="nav-menu" >
         <div>
           <a href="#" class="nav_logo"> CodeWithAniket</a>
         </div>
-        <div class="nav_menu" id="nav_menu">
+        <div class="nav_menu" id="nav_menu" >
           <ul class="nav_list">
             <li class="nav_items">
               <a href="#home" class="nav_link active home">Home</a>
@@ -43,7 +46,7 @@
               <a href="#contact" class="nav_link active contact">Contact</a>
             </li>
             <li class="nav_items">
-              <button class="button nav-link resume" id="resume-button-1">Resume</button>
+              <a href="./images/Aniket-Garole-Resume.pdf" download="Aniket-Garole-Resume"><button class="button1 nav-link resume" id="resume-button-1">Resume</button></a>
             </li>
           </ul>
         </div>
@@ -60,11 +63,28 @@
         <div class="home_data" data-aos="fade-down">
           <h1 class="home_title">
             Hi, <br />I'm <span class="home_title-color" id="user-detail-name">Aniket Garole</span
-            ><br />Web Designer
+            ><br />Full Stack <br>Web developer
           </h1>
-          <!-- <a href="#contact" class="button">Contact</a> -->
-          <!-- <a href="https://drive.google.com/file/d/1u6ljrFNt2GvHAKtq-8Zz2UZmXvqW6lG4/view?usp=share_link" download="aniket-garole-resume"><button class="button nav-link resume"  id="resume-button-2" type="button">Resume</button></a> -->
-          <button class="button nav-link resume"  id="resume-button-2" type="button">Resume</button>
+         
+          <a href="./images/Aniket-Garole-Resume.pdf" download="Aniket-Garole-Resume"><button class="button nav-link resume"  id="resume-button-2" type="button">Resume</button></a>
+          <!-- <a href= download="Aniket-Garole-Resume">Resume</a> -->
+
+          <!-- <div class="home_social">
+            <a
+              href="#"
+              class="home_social-icon"
+              data-aos="fade-down"
+              data-aos-delay="300"
+              ><i class="bx bxl-linkedin" id="contact-linkedin"></i
+            ></a>
+            <a
+              href="#"
+              class="home_social-icon"
+              data-aos="fade-down"
+              data-aos-delay="350"
+              ><i class="bx bxl-github" id="contact-github"></i
+            ></a>
+          </div> -->
         </div>
 
         <div class="home_social">
@@ -73,6 +93,7 @@
             class="home_social-icon"
             data-aos="fade-down"
             data-aos-delay="300"
+            data-aos-anchor-placement="top-bottom"
             ><i class="bx bxl-linkedin" id="contact-linkedin"></i
           ></a>
           <a
@@ -80,6 +101,7 @@
             class="home_social-icon"
             data-aos="fade-down"
             data-aos-delay="350"
+            data-aos-anchor-placement="top-bottom"
             ><i class="bx bxl-github" id="contact-github"></i
           ></a>
         </div>
@@ -92,27 +114,26 @@
       <section class="about section" id="about" >
         <h2 class="section-title" data-aos="fade-down">About</h2>
         <div class="about_container bd_grid">
-          <div class="about_img" data-aos="fade-down" data-aos-delay="50">
+          <!-- <div class="about_img" data-aos="fade-down" data-aos-delay="50">
             <img src="" alt="" />
-          </div>
+          </div> -->
 
           <div>
-            <h2
+            <!-- <h2
               class="about_subtitle"
               data-aos="fade-down"
               data-aos-delay="350"
             >
               I'm Aniket Garole
-            </h2>
-            <p class="about_text" data-aos="fade-down" data-aos-delay="450"  id="user-detail-intro">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quae
-              amet quis voluptate eaque? Culpa cum aperiam possimus similique
-              ipsam sunt aut rerum illo eveniet, beatae exercitationem, corrupti
-              rem nesciunt? Sint obcaecati
+            </h2> -->
+            <p class="about_text" data-aos="fade-down" data-aos-delay="450"  id="user-detail-intro" style="text-align: center">
+              Passion-driven learner and a web developer with the ability to write clean, reusable, optimised code. <br>Skilled and experienced at building and maintaining MERN based web applications. <br>Looking forward to joining a progressive and challenging work environment.
             </p>
           </div>
         </div>
       </section>
+
+      
 
       <!----Skills Sectin---->
 
@@ -126,68 +147,68 @@
               data-aos="fade-down"
               data-aos-delay="250"
             >
-              Professional Skills
+              Front-End Skills
             </h2>
-            <p class="skills_text" data-aos="fade-down" data-aos-delay="350">
+            <!-- <p class="skills_text" data-aos="fade-down" data-aos-delay="350">
               Without sharpen your weapon; standing on the battle field would
               not increase your chance of winning
-            </p>
+            </p> -->
             <!-----skills HTML----->
-            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+            <div class="skills_data" data-aos="fade-right"  data-aos-delay="250" data-aos-anchor-placement="top-bottom">
               <div class="skills_name skills-card" >
                 <i class="bx bxl-html5 skills_icon skills-card-img"></i>
                 <span class="skills_name skills-card-name">HTML</span>
               </div>
 
-              <div><span class="skill_percentage">95%</span></div>
+              <!-- <div><span class="skill_percentage">95%</span></div> -->
 
               <div class="skill_bar skill_html"></div>
             </div>
 
             <!-----CSS---->
-            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+            <div class="skills_data" data-aos="fade-right"  data-aos-delay="250" data-aos-anchor-placement="top-bottom">
               <div class="skills_name skills-card" >
                 <i class="bx bxl-css3 skills_icon skills-card-img"></i>
                 <span class="skills_name skills-card-name">CSS</span>
               </div>
 
-              <div><span class="skill_percentage">90%</span></div>
+              <!-- <div><span class="skill_percentage">90%</span></div> -->
 
               <div class="skill_bar skill_html"></div>
             </div>
 
             <!-----JS---->
-            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+            <div class="skills_data" data-aos="fade-right"  data-aos-delay="250" data-aos-anchor-placement="top-bottom">
               <div class="skills_name skills-card" >
                 <i class="bx bxl-javascript skills_icon skills-card-img"></i>
                 <span class="skills_name skills-card-name">JS</span>
               </div>
 
-              <div><span class="skill_percentage">90%</span></div>
+              <!-- <div><span class="skill_percentage">90%</span></div> -->
 
               <div class="skill_bar skill_html"></div>
             </div>
 
             <!-----React---->
-            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+            <div class="skills_data" data-aos="fade-right"  data-aos-delay="250" data-aos-anchor-placement="top-bottom">
               <div class="skills_name skills-card" >
                 <i class="bx bxl-react skills_icon skills-card-img"></i>
                 <span class="skills_name skills-card-name">React</span>
               </div>
 
-              <div><span class="skill_percentage">90%</span></div>
+              <!-- <div><span class="skill_percentage">90%</span></div> -->
 
               <div class="skill_bar skill_html"></div>
             </div>
 
             <!-----Redux---->
-            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+            <div class="skills_data" data-aos="fade-right"  data-aos-delay="250" data-aos-anchor-placement="top-bottom">
               <div class="skills_name skills-card" >
                 <i class="bx bxl-redux skills_icon skills-card-img"></i>
                 <span class="skills_name skills-card-name">Redux</span>
               </div>
 
-              <div><span class="skill_percentage">90%</span></div>
+              <!-- <div><span class="skill_percentage">90%</span></div> -->
 
               <div class="skill_bar skill_html"></div>
             </div>
@@ -205,7 +226,118 @@
             </div> -->
 
             <!-----Chakra---->
-            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+            <div class="skills_data" data-aos="fade-right"  data-aos-delay="250" data-aos-anchor-placement="top-bottom">
+              <div class="skills_name skills-card">
+                <i class="bx bxs-paint skills_icon skills-card-img"></i>
+                <span class="skills_name skills-card-name">Chakra</span>
+              </div>
+
+              <!-- <div><span class="skill_percentage">90%</span></div> -->
+
+              <div class="skill_bar skill_html"></div>
+            </div>
+
+            <!-----Typescript---->
+            <div class="skills_data" data-aos="fade-right"  data-aos-delay="250" data-aos-anchor-placement="top-bottom">
+              <div class="skills_name skills-card" >
+                <i class="bx bxl-typescript skills_icon skills-card-img" ></i>
+                <span class="skills_name skills-card-name">TypeScript</span>
+              </div>
+
+              <!-- <div><span class="skill_percentage">90%</span></div> -->
+
+              <div class="skill_bar skill_html"></div>
+            </div>
+          </div>
+
+          <div id="front-end">
+            <h2
+              class="skills_subtitle"
+              data-aos="fade-down"
+              data-aos-delay="250"
+            >
+              Back-End Skills
+            </h2>
+            <!-- <p class="skills_text" data-aos="fade-down" data-aos-delay="350">
+              Without sharpen your weapon; standing on the battle field would
+              not increase your chance of winning
+            </p> -->
+            <!-----skills HTML----->
+            <div class="skills_data" data-aos="fade-right" data-aos-delay="250" data-aos-anchor-placement="top-bottom">
+              <div class="skills_name skills-card" >
+                <i class="bx bxl-nodejs skills_icon skills-card-img"></i>
+                
+                <span class="skills_name skills-card-name">Node.js</span>
+              </div>
+
+              <!-- <div><span class="skill_percentage">95%</span></div> -->
+
+              <div class="skill_bar skill_html"></div>
+            </div>
+
+            <!-----CSS---->
+            <div class="skills_data" data-aos="fade-right" data-aos-delay="250" data-aos-anchor-placement="top-bottom">
+              <div class="skills_name skills-card" >
+                <img class="skills_icon skills-card-img" src="./images/express.png"></img>
+                <span class="skills_name skills-card-name">Express.js</span>
+              </div>
+
+              <!-- <div><span class="skill_percentage">90%</span></div> -->
+
+              <div class="skill_bar skill_html"></div>
+            </div>
+
+            <!-----JS---->
+            <div class="skills_data" data-aos="fade-right" data-aos-delay="250" data-aos-anchor-placement="top-bottom">
+              <div class="skills_name skills-card" >
+                <i class="bx bxl-mongodb skills_icon skills-card-img"></i>
+                
+                <span class="skills_name skills-card-name">MongoDB</span>
+              </div>
+
+              <!-- <div><span class="skill_percentage">90%</span></div> -->
+
+              <div class="skill_bar skill_html"></div>
+            </div>
+
+            <!-----React---->
+            <div class="skills_data" data-aos="fade-right" data-aos-delay="250" data-aos-anchor-placement="top-bottom">
+              <div class="skills_name skills-card" >
+                <img class="skills_icon skills-card-img" src="./images/mysql.png"></img>
+                <span class="skills_name skills-card-name">MySQL</span>
+              </div>
+
+              <!-- <div><span class="skill_percentage">90%</span></div> -->
+
+              <div class="skill_bar skill_html"></div>
+            </div>
+
+            <!-----Redux---->
+            <!-- <div class="skills_data" data-aos="fade-right" data-aos-delay="250" data-aos-anchor-placement="top-bottom">
+              <div class="skills_name skills-card" >
+                <i class="bx bxl-redux skills_icon skills-card-img"></i>
+                <span class="skills_name skills-card-name">Redux</span>
+              </div>
+
+              <div><span class="skill_percentage">90%</span></div>
+
+              <div class="skill_bar skill_html"></div>
+            </div> -->
+
+            <!-----Redux---->
+            <!-- <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+              <div class="skills_name">
+                <i class="bx bxl-redux skills_icon"></i>
+                <span class="skills_name">Redux</span>
+              </div>
+
+              <div><span class="skill_percentage">90%</span></div>
+
+              <div class="skill_bar skill_html"></div>
+            </div> -->
+
+            <!-----Chakra---->
+            <!-- <div class="skills_data" data-aos="fade-right" data-aos-delay="250" data-aos-anchor-placement="top-bottom">
               <div class="skills_name skills-card">
                 <i class="bx bxs-paint skills_icon skills-card-img"></i>
                 <span class="skills_name skills-card-name">Chakra</span>
@@ -214,10 +346,10 @@
               <div><span class="skill_percentage">90%</span></div>
 
               <div class="skill_bar skill_html"></div>
-            </div>
+            </div> -->
 
             <!-----Typescript---->
-            <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+            <!-- <div class="skills_data" data-aos="fade-right" data-aos-delay="250" data-aos-anchor-placement="top-bottom">
               <div class="skills_name skills-card" >
                 <i class="bx bxl-typescript skills_icon skills-card-img" ></i>
                 <span class="skills_name skills-card-name">TypeScript</span>
@@ -226,14 +358,29 @@
               <div><span class="skill_percentage">90%</span></div>
 
               <div class="skill_bar skill_html"></div>
-            </div>
-          </div>
-
-          <div>
-            <img src="" alt="" class="" />
+            </div> -->
           </div>
         </div>
       </section>
+
+
+      <section style=" display:block; justify-content: center; margin-bottom: 20px;" class="section">
+        <h2 class="section-title" data-aos="fade-down">My Github Calender</h2>
+        <div class="calendar" style="width:70%">
+          
+      </div>
+      </section>
+  
+  
+      <div class="section">
+  
+        <h2 class="section-title" data-aos="fade-down">My Github Stats</h2>
+        <div id="github-stats" >
+          <img src="https://github-readme-stats.vercel.app/api?username=aniketgarole&show_icons=true&theme=transparent&count_private=true" alt="github_stats" class="stats_img">
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aniketgarole&layout=compact" alt="" class="stats_img">
+          
+        </div>
+      </div>
       <!----Work Sectin---->
 
       <section class="work section"   id="projects">
@@ -245,6 +392,34 @@
           data-aos-delay="250"
         >
           <div class="work_img project-card">
+            <img src="./images/Licious project thumnail.png" alt="" />
+            <div class="work_text_div">
+              <p style="font-family: sans-serif; font-size: 32px;" class="project-title">Licious.in Clone</p> <br>
+              <p style="font-family: sans-serif; font-size: 16px;" class="project-description">Licious is an Indian instant delivery service, that operates on a farm-to-fork model.  It supplies high-quality fresh and hygenic seafood and meat, apart from ready-to-cook and ready-to-eat products.  <br><br>
+              A collaborative project, built in 5 days by a team of 5 developers.</p> <br><br>
+              <p style="font-family: sans-serif; font-size: 16px;" class="project-tech-stack">HTML | CSS | React | Node| Express | MongoDB</p>
+              <div class="work_button_div">
+                <button class="work_btn project-github-link" id="project1_code" style="cursor:pointer">Code</button>
+                <button class="work_btn project-deployed-link" id="project1_live" style="cursor:pointer">Live</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="work_img project-card">
+            <img src="./images/4733153.jpg" alt="" />
+            <div class="work_text_div">
+              <p style="font-family: sans-serif; font-size: 32px;" class="project-title">Craftsvills.com Clone</p> <br>
+              <p style="font-family: sans-serif; font-size: 16px;" class="project-description">Craftsvilla is an Indian e-commerce portal that sells ethnic apparel, footwear, fashion accessories, beauty products, handcrafted home accessories and other ethnic fashion and lifestyle products. <br><br>
+              A collaborative project, built in 5 days by a team of 4 developers</p> <br><br>
+              <p style="font-family: sans-serif; font-size: 16px;" class="project-tech-stack">HTML | CSS | React | Node| Express | MongoDB</p>
+              <div class="work_button_div">
+                <button class="work_btn project-github-link" id="project2_code" style="cursor:pointer">Code</button>
+                <button class="work_btn project-deployed-link" id="project2_live" style="cursor:pointer">Live</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="work_img project-card">
             <img src="./images/4733153.jpg" alt="" />
             <div class="work_text_div">
               <p style="font-family: sans-serif; font-size: 32px;" class="project-title">Licious.in Clone</p> <br>
@@ -252,7 +427,35 @@
               A collaborative project, built in 5 days by a team of 4 developers and 2 UI/UX designers.</p> <br><br>
               <p style="font-family: sans-serif; font-size: 16px;" class="project-tech-stack">HTML | CSS | React | Node| Express | MongoDB</p>
               <div class="work_button_div">
-                <button class="work_btn project-github-link"><a>Code</a></button>
+                <button class="work_btn project-github-link" id="project3_code" style="cursor:pointer">Code</button>
+                <button class="work_btn project-deployed-link" id="project3_live" style="cursor:pointer">Live</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="work_img project-card">
+            <img src="./images/4733153.jpg" alt="" />
+            <div class="work_text_div">
+              <p style="font-family: sans-serif; font-size: 32px;" class="project-title">Licious.in Clone</p> <br>
+              <p style="font-family: sans-serif; font-size: 16px;" class="project-description">Cult.fit is a fitness and well-being start-up, which offers digital and offline experiences in fitness, nutrition, and mental well-being, and also Sportswear products store. <br><br>
+              A collaborative project, built in 5 days by a team of 4 developers and 2 UI/UX designers.</p> <br><br>
+              <p style="font-family: sans-serif; font-size: 16px;" class="project-tech-stack">HTML | CSS | React | Node| Express | MongoDB</p>
+              <div class="work_button_div">
+                <button class="work_btn project-github-link" id="project4_code" style="cursor:pointer">Code</button>
+                <button class="work_btn project-deployed-link" id="project4_live" style="cursor:pointer">Live</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="work_img project-card">
+            <img src="./images/4733153.jpg" alt="" />
+            <div class="work_text_div">
+              <p style="font-family: sans-serif; font-size: 32px;" class="project-title">Licious.in Clone</p> <br>
+              <p style="font-family: sans-serif; font-size: 16px;" class="project-description">Cult.fit is a fitness and well-being start-up, which offers digital and offline experiences in fitness, nutrition, and mental well-being, and also Sportswear products store. <br><br>
+              A collaborative project, built in 5 days by a team of 4 developers and 2 UI/UX designers.</p> <br><br>
+              <p style="font-family: sans-serif; font-size: 16px;" class="project-tech-stack">HTML | CSS | React | Node| Express | MongoDB</p>
+              <div class="work_button_div">
+                <button class="work_btn project-github-link"id="project1_code" style="cursor:pointer">Code</button>
                 <button class="work_btn project-deployed-link"><a>Live</a></button>
               </div>
             </div>
@@ -269,77 +472,19 @@
                 <button class="work_btn project-github-link"><a>Code</a></button>
                 <button class="work_btn project-deployed-link"><a>Live</a></button>
               </div>
-            </div>
-          </div>
-
-          <div class="work_img project-card">
-            <img src="./images/4733153.jpg" alt="" />
-            <div class="work_text_div">
-              <p style="font-family: sans-serif; font-size: 32px;" class="project-title">Licious.in Clone</p> <br>
-              <p style="font-family: sans-serif; font-size: 16px;" class="project-description">Cult.fit is a fitness and well-being start-up, which offers digital and offline experiences in fitness, nutrition, and mental well-being, and also Sportswear products store. <br><br>
-              A collaborative project, built in 5 days by a team of 4 developers and 2 UI/UX designers.</p> <br><br>
-              <p style="font-family: sans-serif; font-size: 16px;" class="project-tech-stack">HTML | CSS | React | Node| Express | MongoDB</p>
-              <div class="work_button_div">
-                <button class="work_btn project-github-link"><a>Code</a></button>
-                <button class="work_btn project-deployed-link"><a>Live</a></button>
-              </div>
-            </div>
-          </div>
-
-          <div class="work_img project-card">
-            <img src="./images/4733153.jpg" alt="" />
-            <div class="work_text_div">
-              <p style="font-family: sans-serif; font-size: 32px;" class="project-title">Licious.in Clone</p> <br>
-              <p style="font-family: sans-serif; font-size: 16px;" class="project-description">Cult.fit is a fitness and well-being start-up, which offers digital and offline experiences in fitness, nutrition, and mental well-being, and also Sportswear products store. <br><br>
-              A collaborative project, built in 5 days by a team of 4 developers and 2 UI/UX designers.</p> <br><br>
-              <p style="font-family: sans-serif; font-size: 16px;" class="project-tech-stack">HTML | CSS | React | Node| Express | MongoDB</p>
-              <div class="work_button_div">
-                <button class="work_btn project-github-link"><a>Code</a></button>
-                <button class="work_btn project-deployed-link"><a>Live</a></button>
-              </div>
-            </div>
-          </div>
-
-          <div class="work_img project-card">
-            <img src="./images/4733153.jpg" alt="" />
-            <div class="work_text_div">
-              <p style="font-family: sans-serif; font-size: 32px;" class="project-title">Licious.in Clone</p> <br>
-              <p style="font-family: sans-serif; font-size: 16px;" class="project-description">Cult.fit is a fitness and well-being start-up, which offers digital and offline experiences in fitness, nutrition, and mental well-being, and also Sportswear products store. <br><br>
-              A collaborative project, built in 5 days by a team of 4 developers and 2 UI/UX designers.</p> <br><br>
-              <p style="font-family: sans-serif; font-size: 16px;" class="project-tech-stack">HTML | CSS | React | Node| Express | MongoDB</p>
-              <div class="work_button_div">
-                <button class="work_btn project-github-link"><a>Code</a></button>
-                <button class="work_btn project-deployed-link"><a>Live</a></button>
-              </div>
-            </div>
-          </div>
-
-          <div class="work_img project-card">
-            <img src="./images/4733153.jpg" alt="" />
-            <div class="work_text_div">
-              <p style="font-family: sans-serif; font-size: 32px;" class="project-title">Licious.in Clone</p> <br>
-              <p style="font-family: sans-serif; font-size: 16px;" class="project-description">Cult.fit is a fitness and well-being start-up, which offers digital and offline experiences in fitness, nutrition, and mental well-being, and also Sportswear products store. <br><br>
-              A collaborative project, built in 5 days by a team of 4 developers and 2 UI/UX designers.</p> <br><br>
-              <p style="font-family: sans-serif; font-size: 16px;" class="project-tech-stack">HTML | CSS | React | Node| Express | MongoDB</p>
-              <div class="work_button_div">
-                <button class="work_btn project-github-link"><a>Code</a></button>
-                <button class="work_btn project-deployed-link"><a>Live</a></button>
-              </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </section>
 
-      <div class="calendar">
-        <!-- Loading stuff -->
-        Loading the data just for you.
-    </div>
+   
+      
 
       
       
       <!----Contact Sectin---->
 
-      <section class="contact section" id="contact">
+      <!-- <section class="contact section" id="contact">
         <h2 class="section-title" data-aos="fade-down">Contact</h2>
 
         <div class="contact_container bd_grid">
@@ -377,35 +522,36 @@
             />
           </form>
         </div>
-      </section>
+      </section> -->
 
       <!----footer section-->
 
-      <footer class="footer">
-        <p class="footer_title" data-aos="fade-down">Aniket Garole</p>
+      <section class="footer section" id="contact">
+        <p class="footer_title" >Aniket Garole</p>
 
         <div class="footer_socials">
           <a
             href="#"
             class="footer_icon"
-            class="footer_title" data-aos="fade-down"
-            data-aos-delay="250"
+            class="footer_title" 
            
             ><i class="bx bxl-linkedin"></i
           ></a>
           <a
             href="#"
             class="footer_icon"
-            class="footer_title" data-aos="fade-down"
-            data-aos-delay="350"
+            class="footer_title" 
             ><i class="bx bxl-github"></i
           ></a>
         </div>
 
-        <p class="footer_title" data-aos="fade-down"  data-aos-delay="350">
-          &#169; 2024 copyright all right reserved
+        <p >
+          &#169; 2023 copyright all right reserved
         </p>
-    </footer>
+    </section>
+
+    
+
     </main>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -417,22 +563,16 @@
         once: false,
       });
     </script>
+    
+
     <script
-    src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
-  </script>
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+></script>
 
 <script>
-  GitHubCalendar(".calendar", "aniketgarole");
-
-  // or enable responsive functionality:
+  
+  // or enable responsive functionality
   GitHubCalendar(".calendar", "aniketgarole", { responsive: true });
-
-  // Use a proxy
-  GitHubCalendar(".calendar", "aniketgarole", {
-     proxy (aniketgarole) {
-       return fetch(`https://your-proxy.com/github?user=${aniketgarole}`)
-     }
-  }).then(r => r.text())
 </script>
     
   </body>
