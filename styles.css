@@ -653,7 +653,7 @@ img {
 .em-ph{
   display: flex;
   align-items: center;
-  /* text-align: center; */
+  text-align: center;
   gap: 10px;
   /* border: 1px solid white */
 }
