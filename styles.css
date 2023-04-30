@@ -636,3 +636,24 @@ img {
     cursor: pointer;
 
 }
+
+.email-phone{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* border: 1px solid red; */
+  /* width: 500px; */
+  /* text-align: center; */
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  /* margin-left: 40.5% */
+}
+
+.em-ph{
+  display: flex;
+  align-items: center;
+  /* text-align: center; */
+  /* gap: 10px; */
+  /* border: 1px solid white */
+}
