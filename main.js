@@ -35,8 +35,8 @@ navLink.forEach(n => n.addEventListener("click", linkAction))
 let res_btn1 = document.getElementById("resume-button-1")
 let res_btn2 = document.getElementById("resume-button-2")
 
-res_btn1.addEventListener("click", openResume)
-res_btn2.addEventListener("click", openResume)
+// res_btn1.addEventListener("click", openResume)
+// res_btn2.addEventListener("click", openResume)
 
 function openResume() {
 
