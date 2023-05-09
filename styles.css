@@ -662,3 +662,19 @@ img {
   gap: 10px;
   /* border: 1px solid white */
 }
+
+
+.nav_logo img{
+    color: var(--second-color);
+    font-weight: var(--font-semi);
+    width: 6rem;
+    max-width: 100%;
+    height: auto;
+    /* display: block; */
+}
+
+
+
+
+
+
