@@ -161,10 +161,16 @@ img {
     width: 300px;
   }
 
+  .home_img {
+    /* border: 1px solid red; */
+    margin-right: 20px;
+    /* width: 10%; */
+  }
+
   .home_img img {
     width: 100%;
     border-radius: 50%;
-    height: 450px;
+    height: auto;
   }
 
   .stats_img{
@@ -270,13 +276,13 @@ img {
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 65%;
+    width: 60%;
   }
 
 .home_img img {
   width: 100%;
   border-radius: 50%;
-  height: 450px;
+  height: auto;
 }
 
 /* buttons */
@@ -417,12 +423,14 @@ img {
 
 .work_container {
   row-gap: 2rem;
+  
 }
 
 .work_img {
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0, 15);
   border-radius: 0.5rem;
   overflow: hidden;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .work_img img {
@@ -545,15 +553,19 @@ img {
   }
 
   .home_img {
-    width: 400px;
+    /* width: 400px; */
+    width: 39%;
     bottom: 15%;
+    margin-right: 20px;
+    /* border: 1px solid red; */
+    height: auto;
   }
 
-  .home_img {
-    width: 39%;
+  /* .home_img {
+    
     max-width: 420px;
     bottom: 15%;
-  }
+  } */
 
   /* .home_img img {
     width: 100%;
@@ -602,6 +614,14 @@ img {
 }
 
 @media screen and (min-width: 1024px) {
+
+  #github-top-langs {
+    /* width: 400px; */
+    height: 170px;
+    /* border: 1px solid red;   */
+    
+  }
+
   .bd_grid {
     margin-left: auto;
     margin-right: auto;
@@ -609,6 +629,7 @@ img {
 
   .home_img {
     right: 10%;
+    width: 30%
   }
 }
 
@@ -635,24 +656,45 @@ img {
 
 .button1{
     padding: 2px 4px;
-    background-color: var(--first-color);
+    background: var(--gardient-color);
     color: #fff;
     border-radius: 5px;
     cursor: pointer;
 
 }
 
+.email-phone-cont{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* border: 1px solid blue; */
+  
+}
+
 .email-phone{
+  width: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: center;
   /* border: 1px solid red; */
   /* width: 500px; */
   /* text-align: center; */
-  align-items: center;
+  /* align-items: center; */
   gap: 20px;
   margin-bottom: 20px;
+  padding: 0;
+  
   /* margin-left: 40.5% */
+}
+
+.email-phone > p {
+  margin-left: 20px;
+}
+
+.footer-socials {
+  /* border: 1px solid green; */
+  display: flex;
+  justify-content: left;
 }
 
 .em-ph{

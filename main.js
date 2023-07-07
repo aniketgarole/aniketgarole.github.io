@@ -60,7 +60,7 @@ project1_live.addEventListener("click", projectoneLive)
 
 function projectoneLive() {
     
-    window.open("https://sensational-wisp-a46f22.netlify.app/", "_blank")
+    window.open("https://cosmic-semolina-4c54b8.netlify.app/", "_blank")
 }
 
 
@@ -72,7 +72,7 @@ const project2_code = document.getElementById("project2_code")
 project2_code.addEventListener("click", projecttwoCode)
 
 function projecttwoCode() {
-    window.open("https://github.com/AditiSharma00/truthful-wing-8761", "_blank")
+    window.open("https://github.com/aniketgarole/Amazon-clone", "_blank")
 }
 
 
@@ -81,7 +81,7 @@ project2_live.addEventListener("click", projecttwoLive)
 
 function projecttwoLive() {
     
-    window.open("https://sensational-wisp-a46f22.netlify.app/", "_blank")
+    window.open("https://peaceful-liger-051912.netlify.app/", "_blank")
 }
 
 
@@ -92,7 +92,7 @@ const project3_code = document.getElementById("project3_code")
 project3_code.addEventListener("click", projectthreeCode)
 
 function projectthreeCode() {
-    window.open("https://github.com/AditiSharma00/truthful-wing-8761", "_blank")
+    window.open("https://github.com/aniketgarole/Myntra-clone-", "_blank")
 }
 
 
@@ -101,7 +101,7 @@ project3_live.addEventListener("click", projectthreeLive)
 
 function projectthreeLive() {
     
-    window.open("https://sensational-wisp-a46f22.netlify.app/", "_blank")
+    window.open("https://ubiquitous-bombolone-5529f1.netlify.app/", "_blank")
 }
 
 
@@ -112,7 +112,7 @@ const project4_code = document.getElementById("project4_code")
 project4_code.addEventListener("click", projectfourCode)
 
 function projectfourCode() {
-    window.open("https://github.com/AditiSharma00/truthful-wing-8761", "_blank")
+    window.open("https://github.com/aniketgarole/Craftsvilla-clone", "_blank")
 }
 
 
@@ -121,7 +121,7 @@ project4_live.addEventListener("click", projectfourLive)
 
 function projectfourLive() {
     
-    window.open("https://sensational-wisp-a46f22.netlify.app/", "_blank")
+    window.open("https://clinquant-vacherin-672ccc.netlify.app/", "_blank")
 }
 
 
