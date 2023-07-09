@@ -125,3 +125,22 @@ function projectfourLive() {
 }
 
 
+
+let githubLink = document.querySelectorAll(".github-link")
+
+
+
+githubLink.forEach(link => {
+    link.addEventListener("click", () => {
+        window.open("https://github.com/aniketgarole", "_blank")
+    })
+})
+
+
+let linkedinLink = document.querySelectorAll(".linkedin-link")
+
+linkedinLink.forEach(link => {
+    link.addEventListener("click", () => {
+        window.open("https://www.linkedin.com/in/aniketgarole/", "_blank")
+    })
+})

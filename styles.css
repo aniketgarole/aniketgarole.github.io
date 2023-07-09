@@ -631,6 +631,10 @@ img {
     right: 10%;
     width: 30%
   }
+
+  /* .github-link, .linkedin-link {
+    cursor: pointer;
+  } */
 }
 
 .work_text_div {
@@ -717,6 +721,8 @@ img {
 
 
 
-
+.github-link, .linkedin-link {
+  cursor: pointer;
+}
 
 
