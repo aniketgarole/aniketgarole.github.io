@@ -51,7 +51,7 @@ const project1_code = document.getElementById("project1_code")
 project1_code.addEventListener("click", projectoneCode)
 
 function projectoneCode() {
-    window.open("https://github.com/AditiSharma00/truthful-wing-8761", "_blank")
+    window.open("https://github.com/aniketgarole/Licious.com-clone", "_blank")
 }
 
 
